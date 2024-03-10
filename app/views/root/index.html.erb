@@ -1,1 +1,15 @@
-<h1>Root Page😄</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div data-controller="hello">
+        <p>Input Your Name</p>
+        <input class="mb-4" data-hello-target="name" type="text" />
+        <br />
+        <button class="mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" data-action="click->hello#greet">Greet</button>
+        <br />
+        <p>Result</p>
+        <input class="mb-4" data-hello-target="output" type="text" />
+      </div>
+    </div>
+  </div>
+</div>
