@@ -31,3 +31,7 @@ group :development do
   gem 'ruby-lsp'
   gem 'web-console'
 end
+
+group :test do
+  gem 'capybara-playwright-driver'
+end

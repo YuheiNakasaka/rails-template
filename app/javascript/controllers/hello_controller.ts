@@ -4,13 +4,13 @@ export default class extends Controller {
   static targets = ['name', 'output']
 
   declare readonly nameTarget: HTMLInputElement
-  declare readonly outputTarget: HTMLInputElement
+  declare readonly outputTarget: HTMLElement
 
   connect() {
     console.log('connected!')
   }
 
   greet() {
-    this.outputTarget.value = `Hello, ${this.nameTarget.value}!`
+    this.outputTarget.textContent = `Hello, ${this.nameTarget.value}!`
   }
 }

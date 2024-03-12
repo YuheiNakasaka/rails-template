@@ -16,6 +16,9 @@ Style/ClassAndModuleChildren:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+RSpec/MultipleExpectations:
+  Enabled: false
+
 require:
   - rubocop-ast
   - rubocop-rails
