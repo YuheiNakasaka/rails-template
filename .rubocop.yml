@@ -19,6 +19,9 @@ Style/FrozenStringLiteralComment:
 RSpec/MultipleExpectations:
   Enabled: false
 
+Layout/LineLength:
+  Enabled: false
+
 require:
   - rubocop-ast
   - rubocop-rails

@@ -4,10 +4,10 @@
       <h1 class="text-center">Hello, Root Page!</h1>
       <div data-controller="hello">
         <p>Input Your Name</p>
-        <input class="mb-4" data-hello-target="name" type="text" />
-        <br />
+        <input class="mb-4" data-hello-target="name" type="text" autocomplete="text">
+        <br>
         <button class="mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" data-action="click->hello#greet">Greet</button>
-        <br />
+        <br>
         <p>Result</p>
         <p class="mb-4" data-hello-target="output"></p>
       </div>
