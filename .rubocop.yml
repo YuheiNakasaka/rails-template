@@ -22,9 +22,13 @@ RSpec/MultipleExpectations:
 Layout/LineLength:
   Enabled: false
 
+Metrics/BlockLength:
+  Enabled: false
+
 require:
   - rubocop-ast
   - rubocop-rails
   - rubocop-rake
   - rubocop-rspec
   - rubocop-performance
+  - rubocop-factory_bot
