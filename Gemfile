@@ -15,6 +15,7 @@ gem 'vite_rails'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri windows]
+  gem 'dotenv'
   gem 'erb_lint'
   gem 'factory_bot_rails'
   gem 'pry-rails'
