@@ -77,6 +77,10 @@ RUN gem update --system && \
   gem uninstall bundler && \
   gem install bundler -v $BUNDLER_VERSION
 
+# Install dependencies for E2E tests
+ENV DEBIAN_FRONTEND=noninteractive
+RUN npx playwright install-deps
+
 # Create a directory for the app code
 RUN mkdir -p /app
 
